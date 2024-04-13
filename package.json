@@ -2,9 +2,12 @@
   "name": "hello world",
   "version": "1.0.0",
   "description": "New project",
+  "homepage": "https://technicalrajni90.github.io/reactapp",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack ."
   },
   "repository": {
@@ -17,7 +20,6 @@
   "bugs": {
     "url": "https://github.com/"
   },
-  "homepage": "https://github.com/",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
@@ -30,6 +32,7 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }
