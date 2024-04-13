@@ -2,7 +2,7 @@
   "name": "hello world",
   "version": "1.0.0",
   "description": "New project",
-  "homepage": "https://technicalrajni90.github.io/reactapp",
+  "homepage": "https://technicalrajni90.github.io/reactapp/",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
